@@ -1,0 +1,39 @@
+*{  
+    margin: 0;  
+    padding: 0;  
+    box-sizing: border-box;
+}
+
+.navbar {
+    background-color: #fe000c;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    width: -webkit-fill-available;
+    height: 80px;
+    opacity: 80%;
+}
+.d-f-column{
+    display: flex;
+    flex-direction: column;
+    font-size: larger;
+    margin: 0 20px;
+    font-family: fantasy;
+    color: white;
+}
+
+
+.navbar-elements {
+    display: flex;
+    align-items: center;
+    font-size: larger;
+    margin: 0 20px;
+    font-family: fantasy;
+    color: white;
+}
+
+.d-f-column > ul > li {
+    list-style: none;
+    margin: 2px 0;
+}
+
