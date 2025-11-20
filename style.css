@@ -10,7 +10,7 @@ main{height: 1000px;}
 .container-main-logo {
     display: flex;
     justify-content: center;
-    background-color: #fe000c;
+    background-color: black;
     width: -webkit-fill-available;
     position: fixed;
     height: 80px;}
@@ -24,7 +24,7 @@ main{height: 1000px;}
     padding: 4rem}
 
     main{
-    background-image: url(img/OIP.webp);
+    background-image: url(img/OIP\ \(1\).webp);
     background-repeat: repeat;
     background-size: cover;}
 
@@ -37,4 +37,56 @@ main{height: 1000px;}
     font-family: fantasy;
     color: #ff1100;
 }
+
+/*immagine in hover*/
+
+.myimage{
+    width: 100%;
+    aspect-ratio: 3/4;
+    background-image: url(img/uomo.jpg);
+      background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: background-image 0.5s ease;
+    margin: 10px 10px;
+
+}
+
+.myimage:hover {
+    background-image: url(img/uomo\ in\ hover.jpg);
+}
+
+
+.myimaged{
+    width: 100%;
+    aspect-ratio: 3/4;
+    background-image: url(img/donna.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: background-image 0.5s ease;
+    margin: 10px 10px;
+}
+
+.myimaged:hover {
+    background-image: url(img/donna\ in\ hover.jpg);
+}
+
+
+.myimagek{
+    width: 100%;
+    aspect-ratio: 3/4;
+    background-image: url(img/bambino.jpg);
+      background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: background-image 0.5s ease;
+    margin: 10px 10px;
+}
+
+.myimagek:hover {
+    background-image: url(img/bambino\ in\ hover.jpg);
+}
+
+
 
